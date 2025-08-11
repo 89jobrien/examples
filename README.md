@@ -13,13 +13,6 @@ graph TD
     D -- No --> C
     E --> F[Monitoring & Maintenance]
     F --> A
-
-    style A fill:#cce5ff,stroke:#333,stroke-width:2px
-    style B fill:#cce5ff,stroke:#333,stroke-width:2px
-    style C fill:#cce5ff,stroke:#333,stroke-width:2px
-    style D fill:#fff0b3,stroke:#333,stroke-width:2px
-    style E fill:#d4edda,stroke:#333,stroke-width:2px
-    style F fill:#d4edda,stroke:#333,stroke-width:2px
 ```
 
 ## 2. How Our AI Answers Questions with RAG
@@ -41,9 +34,6 @@ flowchart TD
     F --> G["Generate Answer"]
     G -- LLM --> H["Answer"]
   end
-
-  style C fill:#cce5ff,stroke:#333,stroke-width:2px
-  style H fill:#d4edda,stroke:#333,stroke-width:2px
 ```
 
 ## 3. Predicting Customer Churn
@@ -73,9 +63,6 @@ graph TD
     E --> F;
     F --> G;
     G --> H;
-
-    style G fill:#f8d7da,stroke:#333,stroke-width:2px
-    style H fill:#d4edda,stroke:#333,stroke-width:2px
 ```
 
 ## 4. AI-Powered Sales Forecasting
@@ -103,10 +90,6 @@ graph LR
     A & B & C & D --> E;
     F --> G;
     F --> H;
-
-    style F fill:#cce5ff,stroke:#333,stroke-width:2px
-    style G fill:#d4edda,stroke:#333,stroke-width:2px
-    style H fill:#d4edda,stroke:#333,stroke-width:2px
 ```
 
 ## 5. AI Agent for Customer Support
@@ -122,7 +105,4 @@ graph TD
     E -- "Status: Shipped" --> D;
     D -- Returns info to Agent --> B;
     B --> F["Agent responds:<br>&quot;Your order #12345<br>has been shipped.&quot;"];
-
-    style B fill:#cce5ff,stroke:#333,stroke-width:2px
-    style F fill:#d4edda,stroke:#333,stroke-width:2px
 ```
