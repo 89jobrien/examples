@@ -16,12 +16,12 @@ graph TD
     E --> F[Monitoring & Maintenance]
     F --> A
 
-    style A fill:#3b5998,stroke:#222,stroke-width:2px
-    style B fill:#3b5998,stroke:#222,stroke-width:2px
-    style C fill:#3b5998,stroke:#222,stroke-width:2px
-    style D fill:#d2852b,stroke:#222,stroke-width:2px
-    style E fill:#2f855a,stroke:#222,stroke-width:2px
-    style F fill:#2f855a,stroke:#222,stroke-width:2px
+    style A fill:#5472b8,stroke:#222,stroke-width:2px
+    style B fill:#5472b8,stroke:#222,stroke-width:2px
+    style C fill:#5472b8,stroke:#222,stroke-width:2px
+    style D fill:#d7993c,stroke:#222,stroke-width:2px
+    style E fill:#38a169,stroke:#222,stroke-width:2px
+    style F fill:#38a169,stroke:#222,stroke-width:2px
 ```
 
 ### Example 2: How Our AI Answers Questions with RAG
@@ -46,8 +46,8 @@ flowchart TD
     G -- LLM --> H["Answer"]
   end
 
-  style C fill:#3b5998,stroke:#222,stroke-width:2px
-  style H fill:#2f855a,stroke:#222,stroke-width:2px
+  style C fill:#5472b8,stroke:#222,stroke-width:2px
+  style H fill:#38a169,stroke:#222,stroke-width:2px
 ```
 
 ### Example 3: AI Agent for Customer Support
@@ -64,8 +64,8 @@ graph TD
     D -- Returns info to Agent --> B;
     B --> F["Agent responds:<br>&quot;Your order #12345<br>has been shipped.&quot;"];
 
-    style B fill:#3b5998,stroke:#222,stroke-width:2px
-    style F fill:#2f855a,stroke:#222,stroke-width:2px
+    style B fill:#5472b8,stroke:#222,stroke-width:2px
+    style F fill:#38a169,stroke:#222,stroke-width:2px
 ```
 
 ## 2. Sequence Diagrams
