@@ -16,12 +16,12 @@ graph TD
     E --> F[Monitoring & Maintenance]
     F --> A
 
-    style A fill:#cce5ff,stroke:#333,stroke-width:2px
-    style B fill:#cce5ff,stroke:#333,stroke-width:2px
-    style C fill:#cce5ff,stroke:#333,stroke-width:2px
-    style D fill:#fff0b3,stroke:#333,stroke-width:2px
-    style E fill:#d4edda,stroke:#333,stroke-width:2px
-    style F fill:#d4edda,stroke:#333,stroke-width:2px
+    style A fill:#2a4365,stroke:#222,stroke-width:2px
+    style B fill:#2a4365,stroke:#222,stroke-width:2px
+    style C fill:#2a4365,stroke:#222,stroke-width:2px
+    style D fill:#b7791f,stroke:#222,stroke-width:2px
+    style E fill:#276749,stroke:#222,stroke-width:2px
+    style F fill:#276749,stroke:#222,stroke-width:2px
 ```
 
 ### Example 2: How Our AI Answers Questions with RAG
