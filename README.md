@@ -2,6 +2,8 @@
 
 ## Flowcharts
 
+My go-to diagram that helps to visually represent the steps of a process or workflow. They make complex processes easier to understand at a glance.
+
 ### Example 1: AI Project Workflow
 
 Simplified overview of the end-to-end process for an AI project, from initial concept to deployment and maintenance.
@@ -70,9 +72,11 @@ graph TD
 
 ## Sequence Diagrams
 
+Useful for explaining the technical architecture at a high level, showing the different components and how they interact.
+
 ### Example: LLM Inference via API
 
-Shows how a user's request flows through the system to get a prediction from an LLM. It's useful for explaining the technical architecture at a high level, showing the different components and how they interact.
+Shows how a user's request flows through the system to get a prediction from an LLM. 
 
 ```mermaid
 sequenceDiagram
@@ -89,6 +93,8 @@ sequenceDiagram
 ```
 
 ## Mindmaps
+
+Helps to visually organize ideas and show relationships between them.
 
 ### Example: Potential AI Applications
 
