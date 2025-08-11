@@ -1,6 +1,6 @@
 # Examples
 
-## 1. Flowcharts
+## Flowcharts
 
 ### Example 1: AI Project Workflow
 
@@ -68,7 +68,7 @@ graph TD
     style F fill:#38a169,stroke:#222,stroke-width:2px
 ```
 
-## 2. Sequence Diagrams
+## Sequence Diagrams
 
 ### Example: LLM Inference via API
 
@@ -88,7 +88,7 @@ sequenceDiagram
     API_Gateway-->>User: Result
 ```
 
-## 3. Mindmaps
+## Mindmaps
 
 ### Example: Potential AI Applications
 
